@@ -1,0 +1,14 @@
+{
+    "name": "livro-razao/pdf-generator",
+    "description": "Gerador de Livro Razão em PDF a partir de dados do PostgreSQL",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "setasign/fpdf": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fpdf\\": "vendor/setasign/fpdf/src/"
+        }
+    }
+}
