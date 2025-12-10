@@ -109,9 +109,9 @@ class LivroRazaoPDF extends FPDF {
 $dbConfig = [
     'host' => 'localhost',
     'port' => '5432',
-    'dbname' => 'pmidd',
-    'user' => 'postgres',
-    'password' => 'lise890'
+    'dbname' => '',
+    'user' => '',
+    'password' => ''
 ];
 
 // ==================== INTERAÇÃO COM USUÁRIO ====================
